@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="./assets/css/style.css">
         <!-- Link to Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <!-- Link to Javascript -->
+        <!-- Link to Jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
@@ -23,9 +23,27 @@
             </div>
         <!-- Timer Row -->
             <div class="row">
-                <div class="col-md-4" align="center" id="timerDiv"></div>
+                <div class="col-md-12" align="center" id="timerDiv">Time left: </div>
             </div>
-        <!-- -->
+        <!-- Question Row -->
+            <div class="row">
+                <div class="col-md-12" align="center" id="questionDiv"></div>
+            </div>
+        <!-- Answer Rows -->
+            <div id="masterAnswerDiv">
+                <div class="row">
+                    <div class="col-md-12" align="center" id="answersDiv1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" align="center" id="answersDiv2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" align="center" id="answersDiv3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" align="center" id="answersDiv4"></div>
+                </div>
+            </div>
         </div>
     <script src="./assets/javascript/app.js" async defer></script>
     </body>
